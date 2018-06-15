@@ -1,0 +1,460 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Proyectos\DebtControl\Panel 2do Nivel Definidos\Entrega</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="analista_segnivel.aspx">
+      <publishTime>01/22/2018 23:55:38</publishTime>
+    </File>
+    <File Include="bin/dcControlPanel.Base.dll">
+      <publishTime>02/06/2018 00:52:59</publishTime>
+    </File>
+    <File Include="bin/dcControlPanel.Base.pdb">
+      <publishTime>02/06/2018 00:52:59</publishTime>
+    </File>
+    <File Include="bin/dcControlPanel.Conn.dll">
+      <publishTime>01/30/2018 00:40:09</publishTime>
+    </File>
+    <File Include="bin/dcControlPanel.Conn.pdb">
+      <publishTime>01/30/2018 00:40:09</publishTime>
+    </File>
+    <File Include="bin/dcControlPanel.dll">
+      <publishTime>02/06/2018 00:53:01</publishTime>
+    </File>
+    <File Include="bin/dcControlPanel.Method.dll">
+      <publishTime>01/30/2018 00:40:09</publishTime>
+    </File>
+    <File Include="bin/dcControlPanel.Method.pdb">
+      <publishTime>01/30/2018 00:40:09</publishTime>
+    </File>
+    <File Include="bin/dcControlPanel.pdb">
+      <publishTime>02/06/2018 00:53:01</publishTime>
+    </File>
+    <File Include="bin/Telerik.Web.Design.dll">
+      <publishTime>06/24/2016 00:24:47</publishTime>
+    </File>
+    <File Include="bin/Telerik.Web.UI.dll">
+      <publishTime>06/24/2016 00:24:48</publishTime>
+    </File>
+    <File Include="calidadproductiva.aspx">
+      <publishTime>01/22/2018 23:55:42</publishTime>
+    </File>
+    <File Include="claves.aspx">
+      <publishTime>07/12/2015 20:06:47</publishTime>
+    </File>
+    <File Include="css/bootstrap.css">
+      <publishTime>02/19/2017 18:35:04</publishTime>
+    </File>
+    <File Include="css/bootstrap.min.css">
+      <publishTime>02/19/2017 18:34:51</publishTime>
+    </File>
+    <File Include="css/stylesdebtcontrol.css">
+      <publishTime>02/19/2017 18:36:18</publishTime>
+    </File>
+    <File Include="default.aspx">
+      <publishTime>02/19/2017 18:39:03</publishTime>
+    </File>
+    <File Include="fancybox/blank.gif">
+      <publishTime>02/22/2015 17:59:45</publishTime>
+    </File>
+    <File Include="fancybox/fancybox-x.png">
+      <publishTime>02/22/2015 17:59:45</publishTime>
+    </File>
+    <File Include="fancybox/fancybox-y.png">
+      <publishTime>02/22/2015 17:59:45</publishTime>
+    </File>
+    <File Include="fancybox/fancybox.png">
+      <publishTime>02/22/2015 17:59:45</publishTime>
+    </File>
+    <File Include="fancybox/fancy_close.png">
+      <publishTime>02/22/2015 17:59:45</publishTime>
+    </File>
+    <File Include="fancybox/fancy_loading.png">
+      <publishTime>02/22/2015 17:59:45</publishTime>
+    </File>
+    <File Include="fancybox/fancy_nav_left.png">
+      <publishTime>02/22/2015 17:59:46</publishTime>
+    </File>
+    <File Include="fancybox/fancy_nav_right.png">
+      <publishTime>02/22/2015 17:59:46</publishTime>
+    </File>
+    <File Include="fancybox/fancy_shadow_e.png">
+      <publishTime>02/22/2015 17:59:46</publishTime>
+    </File>
+    <File Include="fancybox/fancy_shadow_n.png">
+      <publishTime>02/22/2015 17:59:46</publishTime>
+    </File>
+    <File Include="fancybox/fancy_shadow_ne.png">
+      <publishTime>02/22/2015 17:59:46</publishTime>
+    </File>
+    <File Include="fancybox/fancy_shadow_nw.png">
+      <publishTime>02/22/2015 17:59:46</publishTime>
+    </File>
+    <File Include="fancybox/fancy_shadow_s.png">
+      <publishTime>02/22/2015 17:59:46</publishTime>
+    </File>
+    <File Include="fancybox/fancy_shadow_se.png">
+      <publishTime>02/22/2015 17:59:46</publishTime>
+    </File>
+    <File Include="fancybox/fancy_shadow_sw.png">
+      <publishTime>02/22/2015 17:59:46</publishTime>
+    </File>
+    <File Include="fancybox/fancy_shadow_w.png">
+      <publishTime>02/22/2015 17:59:46</publishTime>
+    </File>
+    <File Include="fancybox/fancy_title_left.png">
+      <publishTime>02/22/2015 17:59:46</publishTime>
+    </File>
+    <File Include="fancybox/fancy_title_main.png">
+      <publishTime>02/22/2015 17:59:46</publishTime>
+    </File>
+    <File Include="fancybox/fancy_title_over.png">
+      <publishTime>02/22/2015 17:59:46</publishTime>
+    </File>
+    <File Include="fancybox/fancy_title_right.png">
+      <publishTime>02/22/2015 17:59:46</publishTime>
+    </File>
+    <File Include="fancybox/jquery-1.4.3.min.js">
+      <publishTime>02/22/2015 17:59:46</publishTime>
+    </File>
+    <File Include="fancybox/jquery-1.5.1.min.js">
+      <publishTime>02/25/2015 01:05:27</publishTime>
+    </File>
+    <File Include="fancybox/jquery.easing-1.3.pack.js">
+      <publishTime>02/22/2015 17:59:46</publishTime>
+    </File>
+    <File Include="fancybox/jquery.fancybox-1.3.4.css">
+      <publishTime>02/22/2015 17:59:46</publishTime>
+    </File>
+    <File Include="fancybox/jquery.fancybox-1.3.4.js">
+      <publishTime>02/22/2015 17:59:46</publishTime>
+    </File>
+    <File Include="fancybox/jquery.fancybox-1.3.4.pack.js">
+      <publishTime>02/22/2015 17:59:46</publishTime>
+    </File>
+    <File Include="fancybox/jquery.min.js">
+      <publishTime>02/22/2015 17:59:46</publishTime>
+    </File>
+    <File Include="fancybox/jquery.mousewheel-3.0.4.pack.js">
+      <publishTime>02/22/2015 17:59:46</publishTime>
+    </File>
+    <File Include="fancybox/lib/jquery-1.10.1.min.js">
+      <publishTime>02/25/2015 01:58:31</publishTime>
+    </File>
+    <File Include="fancybox/lib/jquery-1.9.0.min.js">
+      <publishTime>02/25/2015 01:58:31</publishTime>
+    </File>
+    <File Include="fancybox/lib/jquery.mousewheel-3.0.6.pack.js">
+      <publishTime>02/25/2015 01:58:31</publishTime>
+    </File>
+    <File Include="fancybox/source/blank.gif">
+      <publishTime>02/25/2015 01:58:31</publishTime>
+    </File>
+    <File Include="fancybox/source/fancybox_loading%402x.gif">
+      <publishTime>02/25/2015 01:58:31</publishTime>
+    </File>
+    <File Include="fancybox/source/fancybox_loading.gif">
+      <publishTime>02/25/2015 01:58:31</publishTime>
+    </File>
+    <File Include="fancybox/source/fancybox_overlay.png">
+      <publishTime>02/25/2015 01:58:31</publishTime>
+    </File>
+    <File Include="fancybox/source/fancybox_sprite%402x.png">
+      <publishTime>02/25/2015 01:58:31</publishTime>
+    </File>
+    <File Include="fancybox/source/fancybox_sprite.png">
+      <publishTime>02/25/2015 01:58:31</publishTime>
+    </File>
+    <File Include="fancybox/source/helpers/fancybox_buttons.png">
+      <publishTime>02/25/2015 01:58:31</publishTime>
+    </File>
+    <File Include="fancybox/source/helpers/jquery.fancybox-buttons.css">
+      <publishTime>02/25/2015 01:58:31</publishTime>
+    </File>
+    <File Include="fancybox/source/helpers/jquery.fancybox-buttons.js">
+      <publishTime>02/25/2015 01:58:31</publishTime>
+    </File>
+    <File Include="fancybox/source/helpers/jquery.fancybox-media.js">
+      <publishTime>02/25/2015 01:58:31</publishTime>
+    </File>
+    <File Include="fancybox/source/helpers/jquery.fancybox-thumbs.css">
+      <publishTime>02/25/2015 01:58:31</publishTime>
+    </File>
+    <File Include="fancybox/source/helpers/jquery.fancybox-thumbs.js">
+      <publishTime>02/25/2015 01:58:31</publishTime>
+    </File>
+    <File Include="fancybox/source/jquery.fancybox.css">
+      <publishTime>02/25/2015 01:58:31</publishTime>
+    </File>
+    <File Include="fancybox/source/jquery.fancybox.js">
+      <publishTime>02/25/2015 01:58:31</publishTime>
+    </File>
+    <File Include="fancybox/source/jquery.fancybox.pack.js">
+      <publishTime>02/25/2015 01:58:31</publishTime>
+    </File>
+    <File Include="fancybox/style.css">
+      <publishTime>02/22/2015 17:59:46</publishTime>
+    </File>
+    <File Include="fancybox/Thumbs.db">
+      <publishTime>02/22/2015 17:59:46</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>11/27/2017 23:57:17</publishTime>
+    </File>
+    <File Include="HtmlPage1.html">
+      <publishTime>12/09/2017 22:50:34</publishTime>
+    </File>
+    <File Include="images/flechas/amarillo.jpg">
+      <publishTime>07/12/2015 22:06:06</publishTime>
+    </File>
+    <File Include="images/flechas/flecharojaabajo.jpg">
+      <publishTime>04/10/2015 00:10:05</publishTime>
+    </File>
+    <File Include="images/flechas/flecharojaarriba.jpg">
+      <publishTime>04/10/2015 00:10:55</publishTime>
+    </File>
+    <File Include="images/flechas/flechaverdeabajo.jpg">
+      <publishTime>04/10/2015 00:10:44</publishTime>
+    </File>
+    <File Include="images/flechas/flechaverdearriba.jpg">
+      <publishTime>04/10/2015 00:10:19</publishTime>
+    </File>
+    <File Include="images/flechas/flechaverdederecha.jpg">
+      <publishTime>04/10/2015 00:10:32</publishTime>
+    </File>
+    <File Include="images/flechas/rojo.jpg">
+      <publishTime>04/11/2015 18:12:52</publishTime>
+    </File>
+    <File Include="images/flechas/verde.jpg">
+      <publishTime>04/11/2015 18:13:14</publishTime>
+    </File>
+    <File Include="images/kpi_background.jpg">
+      <publishTime>02/19/2017 18:21:57</publishTime>
+    </File>
+    <File Include="images/logo.jpg">
+      <publishTime>04/12/2015 19:07:19</publishTime>
+    </File>
+    <File Include="images/logo.swf">
+      <publishTime>01/25/2015 19:38:36</publishTime>
+    </File>
+    <File Include="images/logos/15.jpg">
+      <publishTime>04/11/2015 23:47:38</publishTime>
+    </File>
+    <File Include="images/logos/18.jpg">
+      <publishTime>04/12/2015 13:45:40</publishTime>
+    </File>
+    <File Include="images/logos/34.jpg">
+      <publishTime>04/11/2015 23:48:30</publishTime>
+    </File>
+    <File Include="images/logos/35.jpg">
+      <publishTime>04/11/2015 23:47:49</publishTime>
+    </File>
+    <File Include="images/logos/45.jpg">
+      <publishTime>04/11/2015 23:48:39</publishTime>
+    </File>
+    <File Include="images/logos/48.jpg">
+      <publishTime>04/11/2015 23:49:01</publishTime>
+    </File>
+    <File Include="images/logos/49.jpg">
+      <publishTime>04/11/2015 23:49:01</publishTime>
+    </File>
+    <File Include="images/logos/52.jpg">
+      <publishTime>04/11/2015 23:48:10</publishTime>
+    </File>
+    <File Include="images/logos/54.jpg">
+      <publishTime>04/11/2015 23:49:01</publishTime>
+    </File>
+    <File Include="images/logos/55.jpg">
+      <publishTime>04/11/2015 23:49:01</publishTime>
+    </File>
+    <File Include="images/logos/57.jpg">
+      <publishTime>04/11/2015 23:48:20</publishTime>
+    </File>
+    <File Include="images/logos/58.jpg">
+      <publishTime>04/11/2015 23:49:01</publishTime>
+    </File>
+    <File Include="images/logos/59.jpg">
+      <publishTime>04/11/2015 23:49:01</publishTime>
+    </File>
+    <File Include="images/logos/62.jpg">
+      <publishTime>04/12/2015 00:01:47</publishTime>
+    </File>
+    <File Include="images/logos/63.jpg">
+      <publishTime>04/12/2015 00:15:42</publishTime>
+    </File>
+    <File Include="images/logos/64.jpg">
+      <publishTime>04/11/2015 23:49:01</publishTime>
+    </File>
+    <File Include="images/logos/65.jpg">
+      <publishTime>04/11/2015 23:48:00</publishTime>
+    </File>
+    <File Include="images/logos/67.jpg">
+      <publishTime>04/12/2015 00:17:01</publishTime>
+    </File>
+    <File Include="images/logos/71.jpg">
+      <publishTime>04/22/2015 00:48:11</publishTime>
+    </File>
+    <File Include="images/logos/72.jpg">
+      <publishTime>04/11/2015 23:48:47</publishTime>
+    </File>
+    <File Include="images/logos/74.jpg">
+      <publishTime>04/12/2015 00:08:16</publishTime>
+    </File>
+    <File Include="images/logos/75.jpg">
+      <publishTime>04/11/2015 23:54:36</publishTime>
+    </File>
+    <File Include="images/logos/logo.jpg">
+      <publishTime>08/12/2015 23:13:38</publishTime>
+    </File>
+    <File Include="images/logos/logodebtcontrol.jpg">
+      <publishTime>01/06/2018 16:38:17</publishTime>
+    </File>
+    <File Include="images/logos/nada.jpg">
+      <publishTime>07/18/2015 18:02:06</publishTime>
+    </File>
+    <File Include="images/piecalproducida.jpg">
+      <publishTime>04/11/2015 18:23:47</publishTime>
+    </File>
+    <File Include="images/pieejecutivos.jpg">
+      <publishTime>04/11/2015 18:23:24</publishTime>
+    </File>
+    <File Include="images/pieimpecabilidad.jpg">
+      <publishTime>04/11/2015 18:25:02</publishTime>
+    </File>
+    <File Include="images/piemanager.jpg">
+      <publishTime>04/11/2015 18:24:43</publishTime>
+    </File>
+    <File Include="images/piemensaje.jpg">
+      <publishTime>04/12/2015 19:27:51</publishTime>
+    </File>
+    <File Include="images/pieriesgo.jpg">
+      <publishTime>04/11/2015 18:24:25</publishTime>
+    </File>
+    <File Include="images/pietesoreria.jpg">
+      <publishTime>04/11/2015 18:24:07</publishTime>
+    </File>
+    <File Include="impecabilidad.aspx">
+      <publishTime>01/22/2018 23:56:30</publishTime>
+    </File>
+    <File Include="index.aspx">
+      <publishTime>01/22/2018 23:33:25</publishTime>
+    </File>
+    <File Include="js/jquery.tablednd.js">
+      <publishTime>11/17/2016 00:16:59</publishTime>
+    </File>
+    <File Include="js/selCombox.js">
+      <publishTime>07/30/2015 00:50:27</publishTime>
+    </File>
+    <File Include="kpi.aspx">
+      <publishTime>11/26/2016 17:08:53</publishTime>
+    </File>
+    <File Include="kpi_list.aspx">
+      <publishTime>11/26/2016 21:13:12</publishTime>
+    </File>
+    <File Include="LogoCliente.aspx">
+      <publishTime>08/04/2015 00:30:39</publishTime>
+    </File>
+    <File Include="logoclienteview.aspx">
+      <publishTime>11/26/2016 22:25:00</publishTime>
+    </File>
+    <File Include="logoholdingview.aspx">
+      <publishTime>11/26/2016 22:26:30</publishTime>
+    </File>
+    <File Include="medicionmanager.aspx">
+      <publishTime>01/22/2018 23:57:33</publishTime>
+    </File>
+    <File Include="medicionmanagerp1.aspx">
+      <publishTime>01/22/2018 23:58:09</publishTime>
+    </File>
+    <File Include="mensajeria.aspx">
+      <publishTime>02/28/2015 03:30:29</publishTime>
+    </File>
+    <File Include="mensajeriasetup.aspx">
+      <publishTime>02/28/2015 01:57:24</publishTime>
+    </File>
+    <File Include="mensajes.aspx">
+      <publishTime>11/26/2016 20:20:38</publishTime>
+    </File>
+    <File Include="mensajesconfig.aspx">
+      <publishTime>07/05/2015 15:52:06</publishTime>
+    </File>
+    <File Include="mensajesview.aspx">
+      <publishTime>11/30/2017 23:52:28</publishTime>
+    </File>
+    <File Include="mensaje_calidad.aspx">
+      <publishTime>02/28/2015 02:50:51</publishTime>
+    </File>
+    <File Include="mensaje_ejecutivos.aspx">
+      <publishTime>02/28/2015 02:50:57</publishTime>
+    </File>
+    <File Include="mensaje_impecabilidad.aspx">
+      <publishTime>02/28/2015 02:51:02</publishTime>
+    </File>
+    <File Include="mensaje_manager.aspx">
+      <publishTime>02/28/2015 02:51:07</publishTime>
+    </File>
+    <File Include="mensaje_riesgo.aspx">
+      <publishTime>02/28/2015 02:51:12</publishTime>
+    </File>
+    <File Include="mensaje_tesoreria.aspx">
+      <publishTime>02/28/2015 02:51:18</publishTime>
+    </File>
+    <File Include="Menu.aspx">
+      <publishTime>01/16/2018 16:14:34</publishTime>
+    </File>
+    <File Include="monitoresclientes.aspx">
+      <publishTime>01/22/2018 23:39:43</publishTime>
+    </File>
+    <File Include="MonitorView.aspx">
+      <publishTime>12/11/2016 14:08:59</publishTime>
+    </File>
+    <File Include="monitorviewconfig.aspx">
+      <publishTime>01/14/2018 20:04:33</publishTime>
+    </File>
+    <File Include="pantallasejecutivos.aspx">
+      <publishTime>01/27/2015 00:14:52</publishTime>
+    </File>
+    <File Include="redirection.htm">
+      <publishTime>11/07/2017 23:57:07</publishTime>
+    </File>
+    <File Include="redirection.html">
+      <publishTime>02/24/2017 19:07:30</publishTime>
+    </File>
+    <File Include="riesgooperacional.aspx">
+      <publishTime>01/22/2018 23:59:06</publishTime>
+    </File>
+    <File Include="selecciondatos.aspx">
+      <publishTime>02/01/2015 13:40:25</publishTime>
+    </File>
+    <File Include="set_kpi_pages.aspx">
+      <publishTime>01/06/2018 16:01:48</publishTime>
+    </File>
+    <File Include="set_kpi_pages_list.aspx">
+      <publishTime>11/23/2016 23:42:03</publishTime>
+    </File>
+    <File Include="style/screen.css">
+      <publishTime>01/14/2018 18:12:02</publishTime>
+    </File>
+    <File Include="tesoreriaproceso.aspx">
+      <publishTime>01/22/2018 23:59:58</publishTime>
+    </File>
+    <File Include="vistaclienteconfig.aspx">
+      <publishTime>11/23/2016 23:16:12</publishTime>
+    </File>
+    <File Include="vistaclienteview.aspx">
+      <publishTime>11/26/2016 21:05:37</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>11/09/2017 00:12:36</publishTime>
+    </File>
+    <File Include="welcome.aspx">
+      <publishTime>01/06/2018 16:16:43</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

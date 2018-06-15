@@ -1,0 +1,10 @@
+C:\Proyectos\DebtControl\Sitio\dcControlPanel\dcControlPanel.Method\bin\Debug\dcControlPanel.Method.dll
+C:\Proyectos\DebtControl\Sitio\dcControlPanel\dcControlPanel.Method\bin\Debug\dcControlPanel.Method.pdb
+C:\Proyectos\DebtControl\Sitio\dcControlPanel\dcControlPanel.Method\obj\Debug\dcControlPanel.Method.dll
+C:\Proyectos\DebtControl\Sitio\dcControlPanel\dcControlPanel.Method\obj\Debug\dcControlPanel.Method.pdb
+C:\Proyectos\DebtControl\Sitio\dcControlPanel\dcControlPanel.Method\obj\Debug\dcControlPanel.Method.csprojResolveAssemblyReference.cache
+C:\Proyectos\DebtControl\Panel de Control\Sitio\dcControlPanel\dcControlPanel.Method\bin\Debug\dcControlPanel.Method.dll
+C:\Proyectos\DebtControl\Panel de Control\Sitio\dcControlPanel\dcControlPanel.Method\bin\Debug\dcControlPanel.Method.pdb
+C:\Proyectos\DebtControl\Panel de Control\Sitio\dcControlPanel\dcControlPanel.Method\obj\Debug\dcControlPanel.Method.dll
+C:\Proyectos\DebtControl\Panel de Control\Sitio\dcControlPanel\dcControlPanel.Method\obj\Debug\dcControlPanel.Method.pdb
+C:\Proyectos\DebtControl\Panel de Control\Sitio\dcControlPanel\dcControlPanel.Method\obj\Debug\dcControlPanel.Method.csprojResolveAssemblyReference.cache

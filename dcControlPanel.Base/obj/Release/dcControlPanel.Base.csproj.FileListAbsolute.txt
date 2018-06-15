@@ -1,0 +1,18 @@
+C:\Proyectos\DebtControl\Sitio\dcControlPanel\dcControlPanel.Base\bin\Release\dcControlPanel.Base.dll
+C:\Proyectos\DebtControl\Sitio\dcControlPanel\dcControlPanel.Base\bin\Release\dcControlPanel.Base.pdb
+C:\Proyectos\DebtControl\Sitio\dcControlPanel\dcControlPanel.Base\bin\Release\dcControlPanel.Conn.dll
+C:\Proyectos\DebtControl\Sitio\dcControlPanel\dcControlPanel.Base\bin\Release\dcControlPanel.Method.dll
+C:\Proyectos\DebtControl\Sitio\dcControlPanel\dcControlPanel.Base\bin\Release\dcControlPanel.Conn.pdb
+C:\Proyectos\DebtControl\Sitio\dcControlPanel\dcControlPanel.Base\bin\Release\dcControlPanel.Method.pdb
+C:\Proyectos\DebtControl\Sitio\dcControlPanel\dcControlPanel.Base\obj\Release\dcControlPanel.Base.csprojResolveAssemblyReference.cache
+C:\Proyectos\DebtControl\Sitio\dcControlPanel\dcControlPanel.Base\obj\Release\dcControlPanel.Base.dll
+C:\Proyectos\DebtControl\Sitio\dcControlPanel\dcControlPanel.Base\obj\Release\dcControlPanel.Base.pdb
+C:\Proyectos\DebtControl\Panel de Control\Sitio\dcControlPanel\dcControlPanel.Base\bin\Release\dcControlPanel.Base.dll
+C:\Proyectos\DebtControl\Panel de Control\Sitio\dcControlPanel\dcControlPanel.Base\bin\Release\dcControlPanel.Base.pdb
+C:\Proyectos\DebtControl\Panel de Control\Sitio\dcControlPanel\dcControlPanel.Base\bin\Release\dcControlPanel.Conn.dll
+C:\Proyectos\DebtControl\Panel de Control\Sitio\dcControlPanel\dcControlPanel.Base\bin\Release\dcControlPanel.Method.dll
+C:\Proyectos\DebtControl\Panel de Control\Sitio\dcControlPanel\dcControlPanel.Base\bin\Release\dcControlPanel.Conn.pdb
+C:\Proyectos\DebtControl\Panel de Control\Sitio\dcControlPanel\dcControlPanel.Base\bin\Release\dcControlPanel.Method.pdb
+C:\Proyectos\DebtControl\Panel de Control\Sitio\dcControlPanel\dcControlPanel.Base\obj\Release\dcControlPanel.Base.csprojResolveAssemblyReference.cache
+C:\Proyectos\DebtControl\Panel de Control\Sitio\dcControlPanel\dcControlPanel.Base\obj\Release\dcControlPanel.Base.dll
+C:\Proyectos\DebtControl\Panel de Control\Sitio\dcControlPanel\dcControlPanel.Base\obj\Release\dcControlPanel.Base.pdb

@@ -1,0 +1,877 @@
+﻿body {
+  color: #D3E6F5 !important;
+  background-color: #0F3154 !important;
+  font-family: "Segoe UI", Arial, Helvetica, Sans-Serif !important;
+  margin: 0px !important;
+}
+
+.imgLogoPanel {
+  width: 100px !important;
+}
+
+.modal-content {
+  background-color: #0F3154 !important;
+}
+
+label {
+  font-weight: normal !important;
+}
+
+.tdleftTitle {
+  height: 100px;
+  text-align: center;
+  vertical-align: central;
+}
+
+.tdRightTitle {
+  text-align: right;
+  vertical-align: bottom;
+}
+
+.titControlPanel {
+  color: #D3E6F5;
+  font-size: 80px;
+}
+
+.titSubControlPanel {
+  color: #D3E6F5;
+  font-size: 40px;
+  margin-right: 20px;
+}
+
+.leyend {
+  color: #D3E6F5;
+  font-size: 20px;
+}
+
+.titMnApp {
+  color: #F1F3F6;
+  font-size: 80px;
+  text-decoration: none;
+}
+
+.tdMarco {
+  height: 400px;
+  vertical-align: top;
+}
+
+.tblPanel {
+  height: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+.clPanel {
+  width: 150px;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.clDtPanel {
+  background-color: #182246;
+  vertical-align: middle;
+}
+
+.tbTit {
+  color: #F1F3F5;
+  font-size: 32px;
+  text-align: center;
+}
+
+  .tbTit a {
+    color: #F1F3F5;
+    font-size: 32px;
+    text-align: center;
+  }
+
+.tbTitLeft {
+  float: left;
+  color: #F1F3F5;
+  font-size: 32px;
+}
+
+.gridMnt {
+  width: 60%;
+}
+
+.tbHdTitRow {
+  background: #00619F;
+  color: #F1F3F5;
+  font-size: 16px;
+  font-weight: normal;
+  margin-right: 20px;
+}
+
+.tbHdTitRowData {
+  background: #00619F;
+  color: #F1F3F5;
+  font-size: 16px;
+  font-weight: normal;
+  width: 100px;
+  align-content: center;
+}
+
+.tbTTitRowData {
+  color: #F1F3F5;
+  font-size: 16px;
+  text-align: center;
+}
+
+.tbTitRow {
+  color: #F1F3F5;
+  font-size: 25px;
+  margin-right: 20px;
+  margin-left: 10px;
+  padding-left: 10px;
+}
+
+.tbTTitRow {
+  color: #F1F3F5;
+  font-size: 32px;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.tbDat {
+  color: #F1F3F5;
+  font-size: 50px;
+  text-align: center;
+  vertical-align: middle;
+  width: 138px;
+  margin: auto;
+}
+
+.tbDatRojo {
+  color: #F1F3F5;
+  font-size: 50px;
+  background: url(../images/flechas/rojo.jpg) 0px 0px !important;
+  text-align: center;
+  vertical-align: middle;
+  width: 138px;
+  height: 94px;
+  margin: auto;
+}
+
+.tbDatVerde {
+  color: #F1F3F5;
+  font-size: 50px;
+  background: url(../images/flechas/verde.jpg) 0px 0px !important;
+  text-align: center;
+  vertical-align: middle;
+  width: 138px;
+  height: 94px;
+  margin: auto;
+}
+
+.tbDatAmarilla {
+  color: #333;
+  font-size: 50px;
+  background: url(../images/flechas/amarillo.jpg) 0px 0px !important;
+  text-align: center;
+  vertical-align: middle;
+  width: 138px;
+  height: 94px;
+  margin: auto;
+}
+
+.mdlPeriodo {
+  width: 100px;
+  margin: 10px 10px 3px 10px;
+  padding: 10px 10px 10px 10px;
+  background: #FDFDFD;
+  color: #002F5F;
+  font-weight: bold;
+}
+
+#objClock {
+  width: 100px;
+  margin: 10px 10px 3px 10px;
+  padding: 10px 10px 10px 10px;
+  background: #FDFDFD;
+  color: #002F5F;
+  font-weight: bold;
+}
+
+.objFlash {
+  width: 100px;
+  margin: 0px 10px 0px 10px;
+  padding: 10px 10px 10px 10px;
+  background: #FDFDFD;
+  color: #002F5F;
+  font-weight: bold;
+}
+
+.mdlDate {
+  width: 100px;
+  margin: 0px 10px 0px 10px;
+  padding: 10px 10px 10px 10px;
+  background: #FDFDFD;
+  color: #002F5F;
+  font-weight: bold;
+}
+
+.tdPieCalidad {
+  background: url(../images/piecalproducida.jpg) 0px 0px !important;
+}
+
+.tdPieImpecabilidad {
+  background: url(../images/pieimpecabilidad.jpg) 0px 0px !important;
+}
+
+.tdPieManagers {
+  background: url(../images/piemanager.jpg) 0px 0px !important;
+}
+
+.tdPieEjecutivos {
+  background: url(../images/pieejecutivos.jpg) 0px 0px !important;
+}
+
+.tdPieRiesgo {
+  background: url(../images/pieriesgo.jpg) 0px 0px !important;
+}
+
+.tdPieTesoreria {
+  background: url(../images/pietesoreria.jpg) 0px 0px !important;
+}
+
+.tdPieMensaje {
+  background: url(../images/piemensaje.jpg) 0px 0px !important;
+}
+
+#idMensaje {
+  color: #F1F3F5;
+  font-size: 32px;
+}
+
+.titMantenedor {
+  color: #CFE9F8;
+  font-size: 24px;
+}
+
+.tbVistaMonitor {
+  font-size: 25px;
+  margin-left: 100px;
+}
+
+#gridVistas td a {
+  text-decoration: none;
+}
+
+#gridPages td a {
+  text-decoration: none;
+}
+
+#btnCrear {
+  font-family: "Segoe UI", Arial, Helvetica, Sans-Serif !important;
+  font-size: 14px;
+  padding: 5px 50px 5px 50px;
+  vertical-align: middle;
+  /*background: #464646;*/
+  margin: 10px;
+  border: solid 1px #000;
+}
+
+#btnGrabar1 {
+  font-family: "Segoe UI", Arial, Helvetica, Sans-Serif !important;
+  font-size: 14px;
+  padding: 5px 50px 5px 50px;
+  vertical-align: middle;
+  /*background: #464646;*/
+  margin: 10px;
+  border: solid 1px #000;
+}
+
+#btnGrabar2 {
+  font-family: "Segoe UI", Arial, Helvetica, Sans-Serif !important;
+  font-size: 14px;
+  padding: 5px 50px 5px 50px;
+  vertical-align: middle;
+  /*background: #464646;*/
+  margin: 10px;
+  border: solid 1px #000;
+}
+
+#btnChangeClientHolding {
+  font-family: "Segoe UI", Arial, Helvetica, Sans-Serif !important;
+  font-size: 14px;
+  padding: 5px 50px 5px 50px;
+  vertical-align: middle;
+  /*background: #464646;*/
+  margin: 10px;
+  border: solid 1px #000;
+}
+
+
+#btnVolver {
+  font-family: "Segoe UI", Arial, Helvetica, Sans-Serif !important;
+  font-size: 14px;
+  padding: 5px 50px 5px 50px;
+  vertical-align: middle;
+  /*background: #464646;*/
+  margin: 10px;
+  border: solid 1px #000;
+  color: #000;
+}
+
+#btnBuscar {
+  font-family: "Segoe UI", Arial, Helvetica, Sans-Serif !important;
+  font-size: 14px;
+  padding: 5px 50px 5px 50px;
+  vertical-align: middle;
+  /*background: #464646;*/
+  margin: 10px;
+  border: solid 1px #000;
+  color: #000;
+}
+
+#btnPageCliente {
+  font-family: "Segoe UI", Arial, Helvetica, Sans-Serif !important;
+  font-size: 14px;
+  padding: 5px 50px 5px 50px;
+  vertical-align: middle;
+  /*background: #464646;*/
+  margin: 10px;
+  border: solid 1px #000;
+  color: #000;
+}
+
+#btnSeleccionar {
+  font-family: "Segoe UI", Arial, Helvetica, Sans-Serif !important;
+  font-size: 14px;
+  padding: 5px 50px 5px 50px;
+  vertical-align: middle;
+  /*background: #464646;*/
+  margin: 10px;
+  border: solid 1px #000;
+  color: #000;
+}
+
+#btnHolding {
+  font-family: "Segoe UI", Arial, Helvetica, Sans-Serif !important;
+  font-size: 14px;
+  padding: 5px 50px 5px 50px;
+  vertical-align: middle;
+  /*background: #464646;*/
+  margin: 10px;
+  border: solid 1px #000;
+}
+
+#btnGrabar2 {
+  font-family: "Segoe UI", Arial, Helvetica, Sans-Serif !important;
+  font-size: 14px;
+  padding: 5px 50px 5px 50px;
+  vertical-align: middle;
+  /*background: #464646;*/
+  margin: 10px;
+  border: solid 1px #000;
+}
+
+#btnChangeClientHolding {
+  font-family: "Segoe UI", Arial, Helvetica, Sans-Serif !important;
+  font-size: 14px;
+  padding: 5px 50px 5px 50px;
+  vertical-align: middle;
+  /*background: #464646;*/
+  margin: 10px;
+  border: solid 1px #000;
+}
+
+.tdTit {
+  vertical-align: middle;
+  font-size: 18px;
+}
+
+.objTxt {
+  width: 400px;
+}
+
+.objTxtIdent {
+  width: 50px;
+}
+
+.styleMensaje {
+  color: #fff;
+  font-size: 20px;
+}
+
+#rdMensaje {
+  background: #ffffff !important;
+}
+
+.cTxtBuscar {
+  font-size: 14px;
+  padding: 5px 10px 5px 10px;
+  vertical-align: middle;
+  /*background: #464646;*/
+  margin: 10px;
+  width: 200px;
+}
+
+#txt_nombre {
+  color: #333 !important;
+}
+
+#oCmbEstado, #txt_time {
+  color: #333 !important;
+}
+
+#btnGrabar1, #btnGrabar2, #btnChangeClientHolding {
+  color: #000;
+}
+
+#oCmbHolding, #oCmbPages {
+  color: #333 !important;
+  font-size: 12px !important;
+  font-family: "Segoe UI", Arial, sans-serif !important;
+}
+
+@media (max-width: 700px) {
+  body {
+    color: #fff !important;
+    background-color: #0F3154 !important;
+    font-family: "Segoe UI", Arial, Helvetica, Sans-Serif !important;
+    margin: 0px !important;
+  }
+
+  .trFoot {
+    visibility: hidden !important;
+    overflow: hidden !important;
+  }
+
+  .modal-content {
+    background-color: #0F3154 !important;
+  }
+
+  label {
+    font-weight: normal !important;
+  }
+
+  .imgLogo {
+    width: 50px !important;
+  }
+
+  .imgLogoPanel {
+    width: 12px !important;
+  }
+
+  .tdleftTitle {
+    height: 50px !important;
+    text-align: center;
+    vertical-align: central;
+  }
+
+  .tdRightTitle {
+    text-align: right;
+    vertical-align: bottom;
+  }
+
+  .titControlPanel {
+    color: #D3E6F5;
+    font-size: 10px;
+  }
+
+  .titSubControlPanel {
+    color: #D3E6F5;
+    font-size: 15px;
+    margin-right: 20px;
+  }
+
+  .leyend {
+    color: #D3E6F5;
+    font-size: 5px;
+  }
+
+  .titMnApp {
+    color: #F1F3F6;
+    font-size: 30px;
+    text-decoration: none;
+  }
+
+  #HeaderId {
+    height: 15px !important;
+  }
+
+  #dataColumn {
+    height: 50px !important;
+  }
+
+  #dataAceptacion {
+    height: 50px !important;
+  }
+
+  #dataSLA {
+    height: 50px !important;
+  }
+
+  #dataMesAnterior {
+    height: 50px !important;
+  }
+
+  .tdMarco {
+    height: auto !important;
+    vertical-align: top;
+  }
+
+  .tblPanel {
+    height: auto !important;
+    width: 100%;
+    text-align: center;
+  }
+
+  .clPanel {
+    width: 25px;
+    text-align: left;
+    padding-left: 5px;
+    border-bottom: 10px solid #0F3154;
+  }
+
+  .clDtPanel {
+    background-color: #182246;
+    vertical-align: middle;
+    border-bottom: 10px solid #182246;
+  }
+
+  .tbTit {
+    color: #F1F3F5;
+    font-size: 12px;
+    text-align: center;
+  }
+
+    .tbTit a {
+      color: #F1F3F5;
+      font-size: 10px;
+      text-align: center;
+    }
+
+  .tbTitLeft {
+    float: left;
+    color: #F1F3F5;
+    font-size: 10px;
+  }
+
+  .gridMnt {
+    width: 60%;
+  }
+
+  .tbHdTitRow {
+    background: #00619F;
+    color: #F1F3F5;
+    font-size: 8px;
+    font-weight: normal;
+    margin-right: 20px;
+  }
+
+  .tbHdTitRowData {
+    background: #00619F;
+    color: #F1F3F5;
+    font-size: 8px;
+    font-weight: normal;
+    width: 100px;
+    align-content: center;
+  }
+
+  .tbTTitRowData {
+    color: #F1F3F5;
+    font-size: 8px;
+    text-align: center;
+  }
+
+  .tbTitRow {
+    color: #F1F3F5;
+    font-size: 12px;
+    margin-right: 2px;
+    margin-left: 2px;
+    padding-left: 2px;
+  }
+
+  .tbTTitRow {
+    color: #F1F3F5;
+    font-size: 10px;
+    font-weight: bold;
+    margin-right: 8px;
+  }
+
+  .tbDat {
+    color: #F1F3F5;
+    font-size: 15px;
+    text-align: center;
+    vertical-align: middle;
+    width: 40px;
+    margin: auto;
+  }
+
+  .tbDatRojo {
+    color: #F1F3F5;
+    font-size: 15px;
+    background: url(../images/flechas/rojo.jpg) !important;
+    background-repeat: no-repeat !important;
+    background-size: 40px 27px !important;
+    text-align: center;
+    vertical-align: middle;
+    width: 40px;
+    height: 27px;
+    margin: auto;
+  }
+
+  .tbDatVerde {
+    color: #F1F3F5;
+    font-size: 15px;
+    background: url(../images/flechas/verde.jpg) !important;
+    background-repeat: no-repeat !important;
+    background-size: 40px 27px !important;
+    text-align: center;
+    vertical-align: middle;
+    width: 40px;
+    height: 27px;
+    margin: auto;
+  }
+
+  .tbDatAmarilla {
+    color: #333;
+    font-size: 15px;
+    background: url(../images/flechas/amarillo.jpg) !important;
+    background-repeat: no-repeat !important;
+    background-size: 40px 27px !important;
+    text-align: center;
+    vertical-align: middle;
+    width: 40px;
+    height: 27px;
+    margin: auto;
+  }
+
+  .tbDat img {
+    width: 30px !important;
+  }
+
+  .mdlPeriodo {
+    width: 100px;
+    margin: 10px 10px 3px 10px;
+    padding: 10px 10px 10px 10px;
+    background: #FDFDFD;
+    color: #002F5F;
+    font-weight: bold;
+  }
+
+  #objClock {
+    width: 100px;
+    margin: 10px 10px 3px 10px;
+    padding: 10px 10px 10px 10px;
+    background: #FDFDFD;
+    color: #002F5F;
+    font-weight: bold;
+  }
+
+  .objFlash {
+    width: 100px;
+    margin: 0px 10px 0px 10px;
+    padding: 10px 10px 10px 10px;
+    background: #FDFDFD;
+    color: #002F5F;
+    font-weight: bold;
+  }
+
+  .mdlDate {
+    width: 100px;
+    margin: 0px 10px 0px 10px;
+    padding: 10px 10px 10px 10px;
+    background: #FDFDFD;
+    color: #002F5F;
+    font-weight: bold;
+  }
+
+  .tdPieCalidad {
+    background: url(../images/piecalproducida.jpg) 0px 0px !important;
+  }
+
+  .tdPieImpecabilidad {
+    background: url(../images/pieimpecabilidad.jpg) 0px 0px !important;
+  }
+
+  .tdPieManagers {
+    background: url(../images/piemanager.jpg) 0px 0px !important;
+  }
+
+  .tdPieEjecutivos {
+    background: url(../images/pieejecutivos.jpg) 0px 0px !important;
+  }
+
+  .tdPieRiesgo {
+    background: url(../images/pieriesgo.jpg) 0px 0px !important;
+  }
+
+  .tdPieTesoreria {
+    background: url(../images/pietesoreria.jpg) 0px 0px !important;
+  }
+
+  .tdPieMensaje {
+    background: url(../images/piemensaje.jpg) 0px 0px !important;
+  }
+
+  #idMensaje {
+    color: #F1F3F5;
+    font-size: 12px;
+  }
+
+  .titMantenedor {
+    color: #CFE9F8;
+    font-size: 24px;
+  }
+
+  .tbVistaMonitor {
+    font-size: 25px;
+    margin-left: 100px;
+  }
+
+  #gridVistas td a {
+    text-decoration: none;
+  }
+
+  #gridPages td a {
+    text-decoration: none;
+  }
+
+  #btnCrear {
+    font-family: "Segoe UI", Arial, Helvetica, Sans-Serif !important;
+    font-size: 14px;
+    padding: 5px 50px 5px 50px;
+    vertical-align: middle;
+    /*background: #464646;*/
+    margin: 10px;
+    border: solid 1px #000;
+  }
+
+  #btnGrabar1 {
+    font-family: "Segoe UI", Arial, Helvetica, Sans-Serif !important;
+    font-size: 14px;
+    padding: 5px 50px 5px 50px;
+    vertical-align: middle;
+    /*background: #464646;*/
+    margin: 10px;
+    border: solid 1px #000;
+  }
+
+  #btnGrabar2 {
+    font-family: "Segoe UI", Arial, Helvetica, Sans-Serif !important;
+    font-size: 14px;
+    padding: 5px 50px 5px 50px;
+    vertical-align: middle;
+    /*background: #464646;*/
+    margin: 10px;
+    border: solid 1px #000;
+  }
+
+  #btnChangeClientHolding {
+    font-family: "Segoe UI", Arial, Helvetica, Sans-Serif !important;
+    font-size: 14px;
+    padding: 5px 50px 5px 50px;
+    vertical-align: middle;
+    /*background: #464646;*/
+    margin: 10px;
+    border: solid 1px #000;
+  }
+
+  #btnVolver {
+    font-family: "Segoe UI", Arial, Helvetica, Sans-Serif !important;
+    font-size: 14px;
+    padding: 5px 50px 5px 50px;
+    vertical-align: middle;
+    /*background: #464646;*/
+    margin: 10px;
+    border: solid 1px #000;
+    color: #000;
+  }
+
+  #btnBuscar {
+    font-family: "Segoe UI", Arial, Helvetica, Sans-Serif !important;
+    font-size: 14px;
+    padding: 5px 50px 5px 50px;
+    vertical-align: middle;
+    /*background: #464646;*/
+    margin: 10px;
+    border: solid 1px #000;
+    color: #000;
+  }
+
+  #btnPageCliente {
+    font-family: "Segoe UI", Arial, Helvetica, Sans-Serif !important;
+    font-size: 14px;
+    padding: 5px 50px 5px 50px;
+    vertical-align: middle;
+    /*background: #464646;*/
+    margin: 10px;
+    border: solid 1px #000;
+    color: #000;
+  }
+
+  #btnSeleccionar {
+    font-family: "Segoe UI", Arial, Helvetica, Sans-Serif !important;
+    font-size: 14px;
+    padding: 5px 50px 5px 50px;
+    vertical-align: middle;
+    /*background: #464646;*/
+    margin: 10px;
+    border: solid 1px #000;
+    color: #000;
+  }
+
+  #btnHolding {
+    font-family: "Segoe UI", Arial, Helvetica, Sans-Serif !important;
+    font-size: 14px;
+    padding: 5px 50px 5px 50px;
+    vertical-align: middle;
+    /*background: #464646;*/
+    margin: 10px;
+    border: solid 1px #000;
+  }
+
+  #btnGrabar2 {
+    font-family: "Segoe UI", Arial, Helvetica, Sans-Serif !important;
+    font-size: 14px;
+    padding: 5px 50px 5px 50px;
+    vertical-align: middle;
+    /*background: #464646;*/
+    margin: 10px;
+    border: solid 1px #000;
+  }
+
+  #btnChangeClientHolding {
+    font-family: "Segoe UI", Arial, Helvetica, Sans-Serif !important;
+    font-size: 14px;
+    padding: 5px 50px 5px 50px;
+    vertical-align: middle;
+    /*background: #464646;*/
+    margin: 10px;
+    border: solid 1px #000;
+  }
+
+  .tdTit {
+    vertical-align: middle;
+    font-size: 18px;
+  }
+
+  .objTxt {
+    width: 400px;
+  }
+
+  .objTxtIdent {
+    width: 50px;
+  }
+
+  .styleMensaje {
+    color: #fff;
+    font-size: 20px;
+  }
+
+  #rdMensaje {
+    background: #ffffff !important;
+  }
+
+  .cTxtBuscar {
+    font-size: 14px;
+    padding: 5px 10px 5px 10px;
+    vertical-align: middle;
+    /*background: #464646;*/
+    margin: 10px;
+    width: 200px;
+  }
+}

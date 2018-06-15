@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AA05B1E0-5D62-4924-8FAF-70CD52DDE239}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>dcControlPanel.Base</RootNamespace>
+    <AssemblyName>dcControlPanel.Base</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="cAplicador .cs" />
+    <Compile Include="cAppKpi.cs" />
+    <Compile Include="cAppLogoCliente.cs" />
+    <Compile Include="cAppTipoConnsulta.cs" />
+    <Compile Include="cAppVistasCliente.cs" />
+    <Compile Include="cAptClientesMonitorpages.cs" />
+    <Compile Include="cAptMonitorMensaje.cs" />
+    <Compile Include="cAptMonitorPages.cs" />
+    <Compile Include="cAnalista.cs" />
+    <Compile Include="cAppMensaje.cs" />
+    <Compile Include="cAppMonitorView.cs" />
+    <Compile Include="cAppPages.cs" />
+    <Compile Include="cAptPagesKpi.cs" />
+    <Compile Include="cCliente.cs" />
+    <Compile Include="cCobrador.cs" />
+    <Compile Include="cDigitador.cs" />
+    <Compile Include="cIndejecucion.cs" />
+    <Compile Include="cIndresultado.cs" />
+    <Compile Include="cIndumbral.cs" />
+    <Compile Include="cSysPerfilesUsuarios.cs" />
+    <Compile Include="cSysUsuario.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\dcControlPanel.Conn\dcControlPanel.Conn.csproj">
+      <Project>{86c8d1c2-3aed-4fc0-afbe-535a8f230f1a}</Project>
+      <Name>dcControlPanel.Conn</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

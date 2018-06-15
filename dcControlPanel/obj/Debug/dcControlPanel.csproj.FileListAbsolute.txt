@@ -1,0 +1,30 @@
+C:\Proyectos\DebtControl\Sitio\dcControlPanel\dcControlPanel\bin\dcControlPanel.dll.config
+C:\Proyectos\DebtControl\Sitio\dcControlPanel\dcControlPanel\bin\dcControlPanel.dll
+C:\Proyectos\DebtControl\Sitio\dcControlPanel\dcControlPanel\bin\dcControlPanel.pdb
+C:\Proyectos\DebtControl\Sitio\dcControlPanel\dcControlPanel\bin\dcControlPanel.Base.dll
+C:\Proyectos\DebtControl\Sitio\dcControlPanel\dcControlPanel\bin\dcControlPanel.Conn.dll
+C:\Proyectos\DebtControl\Sitio\dcControlPanel\dcControlPanel\bin\dcControlPanel.Method.dll
+C:\Proyectos\DebtControl\Sitio\dcControlPanel\dcControlPanel\bin\dcControlPanel.Base.pdb
+C:\Proyectos\DebtControl\Sitio\dcControlPanel\dcControlPanel\bin\dcControlPanel.Conn.pdb
+C:\Proyectos\DebtControl\Sitio\dcControlPanel\dcControlPanel\bin\dcControlPanel.Method.pdb
+C:\Proyectos\DebtControl\Sitio\dcControlPanel\dcControlPanel\obj\Debug\dcControlPanel.csprojResolveAssemblyReference.cache
+C:\Proyectos\DebtControl\Sitio\dcControlPanel\dcControlPanel\obj\Debug\dcControlPanel.dll
+C:\Proyectos\DebtControl\Sitio\dcControlPanel\dcControlPanel\obj\Debug\dcControlPanel.pdb
+C:\Proyectos\DebtControl\Sitio\dcControlPanel\dcControlPanel\bin\Telerik.Web.Design.dll
+C:\Proyectos\DebtControl\Sitio\dcControlPanel\dcControlPanel\bin\Telerik.Web.UI.dll
+C:\Proyectos\DebtControl\Sitio\dcControlPanel\dcControlPanel\bin\Telerik.Web.UI.xml
+C:\Proyectos\DebtControl\Panel de Control\Sitio\dcControlPanel\dcControlPanel\bin\dcControlPanel.dll
+C:\Proyectos\DebtControl\Panel de Control\Sitio\dcControlPanel\dcControlPanel\bin\dcControlPanel.pdb
+C:\Proyectos\DebtControl\Panel de Control\Sitio\dcControlPanel\dcControlPanel\bin\dcControlPanel.Base.dll
+C:\Proyectos\DebtControl\Panel de Control\Sitio\dcControlPanel\dcControlPanel\bin\dcControlPanel.Conn.dll
+C:\Proyectos\DebtControl\Panel de Control\Sitio\dcControlPanel\dcControlPanel\bin\dcControlPanel.Method.dll
+C:\Proyectos\DebtControl\Panel de Control\Sitio\dcControlPanel\dcControlPanel\bin\Telerik.Web.Design.dll
+C:\Proyectos\DebtControl\Panel de Control\Sitio\dcControlPanel\dcControlPanel\bin\Telerik.Web.UI.dll
+C:\Proyectos\DebtControl\Panel de Control\Sitio\dcControlPanel\dcControlPanel\bin\dcControlPanel.Base.pdb
+C:\Proyectos\DebtControl\Panel de Control\Sitio\dcControlPanel\dcControlPanel\bin\dcControlPanel.Conn.pdb
+C:\Proyectos\DebtControl\Panel de Control\Sitio\dcControlPanel\dcControlPanel\bin\dcControlPanel.Method.pdb
+C:\Proyectos\DebtControl\Panel de Control\Sitio\dcControlPanel\dcControlPanel\bin\Telerik.Web.UI.xml
+C:\Proyectos\DebtControl\Panel de Control\Sitio\dcControlPanel\dcControlPanel\obj\Debug\dcControlPanel.csprojResolveAssemblyReference.cache
+C:\Proyectos\DebtControl\Panel de Control\Sitio\dcControlPanel\dcControlPanel\obj\Debug\dcControlPanel.dll
+C:\Proyectos\DebtControl\Panel de Control\Sitio\dcControlPanel\dcControlPanel\obj\Debug\dcControlPanel.pdb
+C:\Proyectos\DebtControl\Panel de Control\Sitio\dcControlPanel\dcControlPanel\bin\dcControlPanel.dll.config

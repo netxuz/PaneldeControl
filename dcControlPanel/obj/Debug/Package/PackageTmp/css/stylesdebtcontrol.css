@@ -1,0 +1,285 @@
+﻿#blqFecha {
+  display: none;
+}
+
+#blqOpcReporte2 {
+  display: none;
+}
+
+#blqOpcIndTop {
+  display: none;
+}
+
+#blqCriterio {
+  display: none;
+}
+
+/*========================================================
+                      Login Styles
+=========================================================*/
+
+.bodycss {
+  background-image: url(../images/kpi_background.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #eee;
+}
+
+.bodyadmcss {
+  background-image: url(../images/background_loginadm.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #eee;
+}
+
+
+.container_login {
+  justify-content: center;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.form-signin {
+  background: #fff;
+  width: 300px;
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+#lblTitle {
+  font-size: 30px;
+}
+
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+
+.form-signin .checkbox {
+  font-weight: normal;
+}
+
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+
+  .form-signin .form-control:focus {
+    z-index: 2;
+  }
+
+#txtLogin {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+#txtPassword {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.btn-group-lg > .btn, .btn-lg {
+  padding: 8px 8px;
+  font-size: 12px;
+  line-height: 1.3333333;
+  border-radius: 6px;
+}
+
+.blq_tile {
+  padding: 5px 0px 5px 0px;
+  border-bottom: 1px solid #b8b8b8;
+  margin-bottom: 10px;
+}
+
+.blq_search {
+  font-size: 12px;
+  width: 300px;
+  float: left;
+}
+
+@media (max-width:600px) {
+  .blq_search {
+    width: 250px;
+  }
+}
+
+.blq_date {
+  font-size: 12px;
+  width: 300px;
+  float: left;
+}
+
+.blq_btn_search {
+  padding: 10px;
+  clear: left;
+}
+
+.inputCmbBox {
+  width: 200px !important;
+  height: auto !important;
+  padding: 10px !important;
+  font-size: 12px !important;
+  border: 1px solid #ccc !important;
+  color: #555 !important;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075) !important;
+}
+
+.inputCmbBoxMes {
+  width: 200px !important;
+  height: auto !important;
+  padding: 10px !important;
+  font-size: 12px !important;
+  border: 1px solid #ccc !important;
+  color: #555 !important;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075) !important;
+  margin-right: 5px;
+}
+
+html body .RadInput_Default .riTextBox, html body .RadInputMgr_Default {
+  width: 200px !important;
+  height: auto !important;
+  padding: 10px !important;
+  font-size: 12px !important;
+  border: 1px solid #ccc !important;
+  color: #555 !important;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075) !important;
+}
+
+@media (max-width:600px) {
+  html body .RadInput_Default .riTextBox, html body .RadInputMgr_Default {
+    width: 180px !important;
+  }
+}
+
+.btnsearch {
+  background: url(../images/btn_search.png) left no-repeat !important;
+  border: none !important;
+  font-size: 12px;
+  cursor: pointer;
+  text-decoration: none;
+  padding: 5px 4px 4px 25px;
+  -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  -o-background-size: cover !important;
+  background-size: cover !important;
+}
+
+.lblTitle {
+  font-weight: 300;
+  font-family: inherit;
+  line-height: 1.1;
+  font-size: 16px !important;
+}
+
+.navbar-brand {
+  background-color: #3D5374 !important;
+  color: #fff;
+}
+
+.RadGrid_Sitefinity .rgAltRow {
+  background: transparent !important;
+}
+
+.RadGrid_Sitefinity, .RadGrid_Sitefinity .rgMasterTable, .RadGrid_Sitefinity .rgDetailTable, .RadGrid_Sitefinity .rgGroupPanel table, .RadGrid_Sitefinity .rgCommandRow table, .RadGrid_Sitefinity .rgEditForm table, .RadGrid_Sitefinity .rgPager table, .GridToolTip_Sitefinity {
+  font-family: inherit !important;
+  color: #777 !important;
+  border-color: #8e8e8e #b8b8b8 #b8b8b8 #8e8e8e !important;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075) !important;
+}
+
+  .RadGrid_Sitefinity .rgHeader, .RadGrid_Sitefinity th.rgResizeCol {
+    border-bottom: 1px solid #eee !important;
+    color: #3D5374 !important;
+  }
+
+    .RadGrid_Sitefinity .rgHeader, .RadGrid_Sitefinity .rgHeader a {
+      color: #3D5374 !important;
+    }
+
+  .RadGrid_Sitefinity .rgRow a, .RadGrid_Sitefinity .rgAltRow a, .RadGrid_Sitefinity .rgEditRow a, .RadGrid_Sitefinity .rgFooter a, .RadGrid_Sitefinity .rgEditForm a {
+    color: transparent !important;
+    background: url(../images/icons/icon-ticket-green.png) left no-repeat !important;
+    padding: 10px 20px 7px 4px !important;
+  }
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background: #f5f5f5;
+}
+
+.text-muted {
+  font-size: 12px;
+  margin: 20px;
+}
+
+.RadGrid_Sitefinity .rgExpXLS, .RadGrid_Sitefinity .rgExpDOC, .RadGrid_Sitefinity .rgExpPDF, .RadGrid_Sitefinity .rgExpCSV {
+  background-image: url(../images/icons/iconexcel.png) !important;
+}
+
+.RadGrid_Sitefinity .rgPager .rgStatus {
+  border: 1px solid #eee !important;
+}
+
+.RadGrid_Sitefinity td.rgPagerCell {
+  border: 1px solid #eee !important;
+}
+
+.inputcheckbox label {
+  font-size: 12px !important;
+  font-weight: normal !important;
+  margin-right: 5px !important;
+}
+
+.lblerror {
+  color: #ff0000;
+}
+
+.blq_mesano {
+  font-size: 12px;
+  width: 500px;
+  float: left;
+}
+
+html body .RadInput_Default .control-text-ano {
+  width: 50px !important;
+  height: auto !important;
+  padding: 10px !important;
+  font-size: 12px !important;
+  border: 1px solid #ccc !important;
+  color: #555 !important;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075) !important;
+}
+
+.data {
+  font-size: 12px !important;
+}
+
+.control-text-ano {
+  width: 100px !important;
+}
+
+.tbl_group .rg_group td {
+  background-color: transparent!important;
+  border-color: #fff!important;
+}

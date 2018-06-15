@@ -1,0 +1,202 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="set_kpi_pages.aspx.cs" Inherits="dcControlPanel.set_kpi_pages1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+  <title>Panel de Control DebtControl</title>
+  <link href="style/screen.css" type="text/css" rel="stylesheet" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/jquery.tablednd.js"></script>
+  <style>
+    .GbiHighlight {
+      background-color: gray;
+    }
+
+    .NoShow {
+      display: none;
+    }
+
+    .ocultartxt {
+      text-indent: -9999px;
+      margin-left:5px;
+      margin-right:5px;
+    }
+  </style>
+  <script>
+    $(document).ready(function () {
+      Sys.WebForms.PageRequestManager.getInstance().add_endRequest(load_lazyload);
+      load_lazyload();
+    });
+
+    function load_lazyload() {
+      $(function () {
+        var CodPage = document.getElementById('<%= CodPage.ClientID %>').value;
+        var CodCliente = document.getElementById('<%= CodCliente.ClientID %>').value;
+        $("#gridKpiPage").tableDnD({
+          onDragClass: "GbiHighlight",
+          onDrop: function (table, row) {
+            reorderDnD('gridKpiPage');
+            $.ajax({
+              type: "POST",
+              url: "set_kpi_pages.aspx/webMethodCall",
+              data: '{"DataKeyValues":"' + DataKeyValues + '", "CodPage":"' + CodPage + '", "CodCliente":"' + CodCliente + '"}',
+              contentType: "application/json; charset=utf-8",
+              dataType: "json",
+              async: true,
+              cache: false,
+              success: function (msg) {
+                __doPostBack('UpdatePanel1', 'priorityUpdate');
+              }
+            })
+          },
+          onDragStart: function (table, row) {
+            $("#debugArea").html("Started dragging row " + row.id);
+          }
+        });
+      });
+    }
+
+    function reorderDnD(gridViewName) {
+      DataKeyValues = "";
+      var grid = document.getElementById('<%= gridKpiPage.ClientID %>');
+      //var header = grid.rows[0];
+      //var dataKeyIndex = -1;
+      //var dataKeyHeaderText = "KPI";
+
+      ////Find index of the DataKey column
+      //for (var i = 0; i < header.cells.length; i++) {
+      //  var cell = header.cells[i];
+      //  if (cell.innerText == dataKeyHeaderText) {
+      //    dataKeyIndex = i;
+      //    break;
+      //  }
+      //}
+
+      //if (dataKeyIndex != -1) {
+
+      //Loop the rows retrieving the value
+      for (var i = 0; i < grid.rows.length; i++) {
+        var row = grid.rows[i];
+        DataKeyValues = DataKeyValues + row.cells[1].innerText + "|";
+      }
+      //}
+    }
+  </script>
+</head>
+<body>
+  <form id="form1" runat="server">
+    <asp:ScriptManager ID="ScriptManager" runat="server"></asp:ScriptManager>
+    <table border="0" cellpadding="0" cellspacing="0" style="width: 100%; text-align: center;">
+      <tr>
+        <td style="height: 50px; text-align: center; vertical-align: central;">
+          <label class="titMantenedor">Asignar KPI's a Página</label>
+        </td>
+      </tr>
+      <tr>
+        <td style="background-color: #00619F; height: 5px;"></td>
+      </tr>
+      <tr>
+        <td style="text-align: left">
+          <button type="button" id="btnSeleccionar" data-toggle="modal" data-target="#myModal">Seleccionar KPI</button>
+          <asp:Button ID="btnVolver" runat="server" Text="Volver" OnClick="btnVolver_Click" />
+        </td>
+      </tr>
+      <tr>
+        <td style="height: 10px;"></td>
+      </tr>
+      <tr>
+        <td>
+          <asp:UpdatePanel ID="UpdatePanel1" runat="server" UpdateMode="Conditional" OnLoad="UpdatePanel1_Load">
+            <ContentTemplate>
+              <table border="0" cellpadding="0" cellspacing="0" style="width: 90%">
+                <tr>
+                  <td style="width: 150px">
+                    <div class="tdTit">Nombre Página</div>
+                  </td>
+                  <td style="text-align: left; width: 450px;">
+                    <asp:Label ID="lblNomPagina" runat="server" CssClass="tdTit"></asp:Label>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="2">
+                    <asp:Label ID="lblStatus" runat="server" Visible="false"></asp:Label>
+                    <asp:GridView ID="gridKpiPage" runat="server" CssClass="tbVistaMonitor" BorderStyle="None"
+                      DataKeyNames="cod_kpi" BorderWidth="0" GridLines="None" AllowPaging="true"
+                      OnRowDeleting="gridKpiPage_RowDeleting" OnPageIndexChanging="gridKpiPage_PageIndexChanging"
+                      AutoGenerateDeleteButton="true"
+                      AutoGenerateColumns="false">
+                      <Columns>
+                        <asp:TemplateField ShowHeader="false" ItemStyle-Width="5px" ItemStyle-CssClass="ocultartxt">
+                          <ItemTemplate>
+                            <asp:Label ID="hddKpi" runat="server" Text='<%#Eval("cod_kpi") %>' />
+                          </ItemTemplate>
+                        </asp:TemplateField>
+                        <asp:BoundField ControlStyle-CssClass="tbTitRow" HeaderText="KPI" DataField="nombrekpi">
+                          <HeaderStyle HorizontalAlign="Center" />
+                          <ItemStyle HorizontalAlign="Left" />
+                        </asp:BoundField>
+
+                        <asp:BoundField ControlStyle-CssClass="tbTitRow" HeaderText="Identificador" DataField="identificador_kpi">
+                          <HeaderStyle HorizontalAlign="Center" />
+                          <ItemStyle HorizontalAlign="Center" />
+                        </asp:BoundField>
+                      </Columns>
+                    </asp:GridView>
+                  </td>
+                </tr>
+              </table>
+            </ContentTemplate>
+          </asp:UpdatePanel>
+        </td>
+      </tr>
+    </table>
+    <div class="container">
+      <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog modal-lg">
+
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <%--<button type="button" class="close" data-dismiss="modal">&times;</button>--%>
+              <asp:Button ID="btnClose2" Text="&times;" runat="server" CssClass="close" OnClick="btnClose2_Click" />
+              <h4 class="modal-title">Selecciona KPI's</h4>
+            </div>
+            <div class="modal-body">
+              <asp:UpdatePanel ID="UpdatePanel2" runat="server" UpdateMode="Conditional">
+                <ContentTemplate>
+                  <asp:GridView ID="GridKPIs" runat="server" CssClass="tbVistaMonitor" BorderStyle="None" AllowPaging="true"
+                    DataKeyNames="cod_kpi" BorderWidth="0" GridLines="None" OnSelectedIndexChanged="GridKPIs_SelectedIndexChanged" OnPageIndexChanging="GridKPIs_PageIndexChanging"
+                    AutoGenerateSelectButton="true"
+                    AutoGenerateColumns="false">
+                    <Columns>
+                      <asp:BoundField ControlStyle-CssClass="tbTitRow" HeaderText="KPI" DataField="nombre_kpi">
+                        <HeaderStyle CssClass="tbTitRow" HorizontalAlign="Center" />
+                        <ItemStyle CssClass="tbTitRow" HorizontalAlign="Left" />
+                      </asp:BoundField>
+
+                      <asp:BoundField ControlStyle-CssClass="tbTitRow" HeaderText="Identificador" DataField="identificador_kpi">
+                        <HeaderStyle HorizontalAlign="Center" />
+                        <ItemStyle HorizontalAlign="Center" />
+                      </asp:BoundField>
+                    </Columns>
+                  </asp:GridView>
+                </ContentTemplate>
+              </asp:UpdatePanel>
+            </div>
+            <div class="modal-footer">
+              <asp:Button ID="btnClose" Text="Close" runat="server" CssClass="btn btn-default" OnClick="btnClose_Click" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <asp:HiddenField ID="CodPage" runat="server" />
+    <asp:HiddenField ID="CodCliente" runat="server" />
+  </form>
+</body>
+</html>

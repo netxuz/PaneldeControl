@@ -1,0 +1,14 @@
+C:\Proyectos\DebtControl\Sitio\dcControlPanel\dcControlPanel.Conn\bin\Release\dcControlPanel.Conn.dll
+C:\Proyectos\DebtControl\Sitio\dcControlPanel\dcControlPanel.Conn\bin\Release\dcControlPanel.Conn.pdb
+C:\Proyectos\DebtControl\Sitio\dcControlPanel\dcControlPanel.Conn\bin\Release\dcControlPanel.Method.dll
+C:\Proyectos\DebtControl\Sitio\dcControlPanel\dcControlPanel.Conn\bin\Release\dcControlPanel.Method.pdb
+C:\Proyectos\DebtControl\Sitio\dcControlPanel\dcControlPanel.Conn\obj\Release\dcControlPanel.Conn.csprojResolveAssemblyReference.cache
+C:\Proyectos\DebtControl\Sitio\dcControlPanel\dcControlPanel.Conn\obj\Release\dcControlPanel.Conn.dll
+C:\Proyectos\DebtControl\Sitio\dcControlPanel\dcControlPanel.Conn\obj\Release\dcControlPanel.Conn.pdb
+C:\Proyectos\DebtControl\Panel de Control\Sitio\dcControlPanel\dcControlPanel.Conn\bin\Release\dcControlPanel.Conn.dll
+C:\Proyectos\DebtControl\Panel de Control\Sitio\dcControlPanel\dcControlPanel.Conn\bin\Release\dcControlPanel.Conn.pdb
+C:\Proyectos\DebtControl\Panel de Control\Sitio\dcControlPanel\dcControlPanel.Conn\bin\Release\dcControlPanel.Method.dll
+C:\Proyectos\DebtControl\Panel de Control\Sitio\dcControlPanel\dcControlPanel.Conn\bin\Release\dcControlPanel.Method.pdb
+C:\Proyectos\DebtControl\Panel de Control\Sitio\dcControlPanel\dcControlPanel.Conn\obj\Release\dcControlPanel.Conn.csprojResolveAssemblyReference.cache
+C:\Proyectos\DebtControl\Panel de Control\Sitio\dcControlPanel\dcControlPanel.Conn\obj\Release\dcControlPanel.Conn.dll
+C:\Proyectos\DebtControl\Panel de Control\Sitio\dcControlPanel\dcControlPanel.Conn\obj\Release\dcControlPanel.Conn.pdb
